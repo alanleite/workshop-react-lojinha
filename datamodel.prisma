@@ -1,0 +1,11 @@
+type Category {
+  id: ID! @id
+  name: String!
+}
+
+type Product {
+  id: ID! @id
+  name: String!
+  image: String!
+  category: Category!
+}
